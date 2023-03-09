@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [grouping]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testng grouping(failed)">
+    <groups>
+      <run>
+        <include name="High"/>
+        <include name="Critical"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="projectTestCases.LoginTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyLogin"/>
+          <include name="verifySignInGetText"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- projectTestCases.LoginTestCases -->
+    </classes>
+  </test> <!-- testng grouping(failed) -->
+</suite> <!-- Failed suite [grouping] -->

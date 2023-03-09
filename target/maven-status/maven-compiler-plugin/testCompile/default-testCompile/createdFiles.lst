@@ -1,0 +1,5 @@
+projectTestCases\ManageContentTestCase.class
+projectTestCases\ManageExpenseTestCase.class
+projectTestCases\ManageUsersTestCase.class
+projectTestCases\BaseClass.class
+projectTestCases\LoginTestCases.class

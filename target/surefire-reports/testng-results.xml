@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-09T11:13:12 IST" name="My Test Suite" finished-at="2023-03-09T11:14:04 IST" duration-ms="52225">
+    <groups>
+      <group name="High">
+        <method signature="LoginTestCases.verifySignInGetText()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" name="verifySignInGetText" class="projectTestCases.LoginTestCases"/>
+      </group> <!-- High -->
+      <group name="Critical">
+        <method signature="LoginTestCases.verifyDataFromExcel()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" name="verifyDataFromExcel" class="projectTestCases.LoginTestCases"/>
+        <method signature="LoginTestCases.verifyLogin()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" name="verifyLogin" class="projectTestCases.LoginTestCases"/>
+      </group> <!-- Critical -->
+    </groups>
+    <test started-at="2023-03-09T11:13:12 IST" name="My Test" finished-at="2023-03-09T11:14:04 IST" duration-ms="52225">
+      <class name="projectTestCases.LoginTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:13 IST" name="beforeMethod" finished-at="2023-03-09T11:13:18 IST" duration-ms="5501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCSSValueofSignIn()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:18 IST" name="verifyCSSValueofSignIn" finished-at="2023-03-09T11:13:18 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCSSValueofSignIn -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:18 IST" name="afterMethod" finished-at="2023-03-09T11:13:19 IST" duration-ms="765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCSSValueofSignIn status=SUCCESS method=LoginTestCases.verifyCSSValueofSignIn()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:19 IST" name="beforeMethod" finished-at="2023-03-09T11:13:22 IST" duration-ms="2969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDataFromExcel()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:22 IST" name="verifyDataFromExcel" finished-at="2023-03-09T11:13:23 IST" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataFromExcel -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:23 IST" name="afterMethod" finished-at="2023-03-09T11:13:24 IST" duration-ms="479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDataFromExcel status=SUCCESS method=LoginTestCases.verifyDataFromExcel()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:24 IST" name="beforeMethod" finished-at="2023-03-09T11:13:27 IST" duration-ms="2929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLogin()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:27 IST" name="verifyLogin" finished-at="2023-03-09T11:13:28 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:28 IST" name="afterMethod" finished-at="2023-03-09T11:13:28 IST" duration-ms="505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginTestCases.verifyLogin()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:28 IST" name="beforeMethod" finished-at="2023-03-09T11:13:31 IST" duration-ms="2667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySignInGetText()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:31 IST" name="verifySignInGetText" finished-at="2023-03-09T11:13:31 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInGetText -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:31 IST" name="afterMethod" finished-at="2023-03-09T11:13:32 IST" duration-ms="850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignInGetText status=SUCCESS method=LoginTestCases.verifySignInGetText()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:32 IST" name="beforeMethod" finished-at="2023-03-09T11:13:35 IST" duration-ms="2731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyremberMeunSelected()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:35 IST" name="verifyremberMeunSelected" finished-at="2023-03-09T11:13:35 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyremberMeunSelected -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.LoginTestCases@40ef3420]" started-at="2023-03-09T11:13:35 IST" name="afterMethod" finished-at="2023-03-09T11:13:35 IST" duration-ms="571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyremberMeunSelected status=SUCCESS method=LoginTestCases.verifyremberMeunSelected()[pri:0, instance:projectTestCases.LoginTestCases@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projectTestCases.LoginTestCases -->
+      <class name="projectTestCases.ManageExpenseTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:35 IST" name="beforeMethod" finished-at="2023-03-09T11:13:38 IST" duration-ms="2932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyClickManageExpense()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:38 IST" name="verifyClickManageExpense" finished-at="2023-03-09T11:13:40 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickManageExpense -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:40 IST" name="afterMethod" finished-at="2023-03-09T11:13:40 IST" duration-ms="436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickManageExpense status=SUCCESS method=ManageExpenseTestCase.verifyClickManageExpense()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:40 IST" name="beforeMethod" finished-at="2023-03-09T11:13:43 IST" duration-ms="2802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyClickMnageExpenseSub()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:43 IST" name="verifyClickMnageExpenseSub" finished-at="2023-03-09T11:13:44 IST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickMnageExpenseSub -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:44 IST" name="afterMethod" finished-at="2023-03-09T11:13:45 IST" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickMnageExpenseSub status=SUCCESS method=ManageExpenseTestCase.verifyClickMnageExpenseSub()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:45 IST" name="beforeMethod" finished-at="2023-03-09T11:13:48 IST" duration-ms="2708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDeleteAndGetTextOfAlert()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:48 IST" name="verifyDeleteAndGetTextOfAlert" finished-at="2023-03-09T11:13:49 IST" duration-ms="1799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteAndGetTextOfAlert -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:49 IST" name="afterMethod" finished-at="2023-03-09T11:13:50 IST" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDeleteAndGetTextOfAlert status=SUCCESS method=ManageExpenseTestCase.verifyDeleteAndGetTextOfAlert()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:50 IST" name="beforeMethod" finished-at="2023-03-09T11:13:53 IST" duration-ms="3015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyFileUpload()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:53 IST" name="verifyFileUpload" finished-at="2023-03-09T11:13:58 IST" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileUpload -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:58 IST" name="afterMethod" finished-at="2023-03-09T11:13:58 IST" duration-ms="983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFileUpload status=SUCCESS method=ManageExpenseTestCase.verifyFileUpload()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:13:59 IST" name="beforeMethod" finished-at="2023-03-09T11:14:01 IST" duration-ms="2818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearchInList()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:14:01 IST" name="verifySearchInList" finished-at="2023-03-09T11:14:04 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchInList -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c]" started-at="2023-03-09T11:14:04 IST" name="afterMethod" finished-at="2023-03-09T11:14:04 IST" duration-ms="531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInList status=SUCCESS method=ManageExpenseTestCase.verifySearchInList()[pri:0, instance:projectTestCases.ManageExpenseTestCase@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projectTestCases.ManageExpenseTestCase -->
+    </test> <!-- My Test -->
+  </suite> <!-- My Test Suite -->
+</testng-results>

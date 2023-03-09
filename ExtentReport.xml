@@ -1,0 +1,13 @@
+<suite name="My Test Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentReport" />
+	</listeners>
+	<test name="My Test">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="projectTestCases.BaseClass" />
+			<class name="projectTestCases.LoginTestCases" />
+			<class name="projectTestCases.ManageExpenseTestCase" />
+		</classes>
+	</test>
+</suite>
